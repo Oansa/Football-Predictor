@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 export default function FootballPredictor() {
   // Replace "API TOKEN" with your actual Football-Data.org API token
-  const API_KEY = "1569bf7a8e68465f81a25f1b57fce6c6";
+  const API_KEY = "APIKEY";
   
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
